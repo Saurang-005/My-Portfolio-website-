@@ -1,0 +1,167 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#navbar{
+	/**border:2px solid white;**/
+	height:50px;
+    margin-top:0px;
+    display: flex;
+    justify-content:space-evenly;
+	align-items:center;
+	background-color:black;
+}
+
+a{
+	color:white;
+	margin-right: 200px;
+	text-decoration:none;
+    transition-duration:0.5s;
+    font-size:20px;
+
+}
+
+a:hover{
+	color:blue;
+	text-decoration:none;
+}
+
+
+body{
+	background-image:url("bgimg.jpg");
+	background-size: cover;
+}
+
+#system{
+	text-align:left;
+	font-size: 50px;
+	color:white;
+	margin:200px 50px 500px 600px;
+}
+
+/**ABOUT STYLE**/
+
+
+.about-text{
+	height: 2000px;
+	width:56%;
+	margin-top:100px;
+	color: white;
+	margin-left:80px;
+	font-size: 20px;
+	font-family: 𝑺𝒆𝒓𝒊𝒇 𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄;
+
+}
+
+.about-photo{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	position: absolute;
+	top:200px;
+	right:110px;
+	background-image: url("saurang.jpeg");
+	background-size: cover;
+}
+
+/** SKIILS STYLING **/
+
+.skills{
+	color: white;
+	font-family: 𝑺𝒆𝒓𝒊𝒇 𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄;
+	font-size: 25px;
+	margin-left:40px ;
+	margin-top:60px;
+	
+	
+}
+
+ul{
+	
+	font-size: 25px;
+}
+
+.skills2{
+	color: white;
+	font-family: 𝑺𝒆𝒓𝒊𝒇 𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄;
+	font-size: 25px;
+	margin-left:40px;
+	margin-top:150px;
+}
+.tech{
+	height:350px;
+	width:700px;
+	/**border:2px solid white;**/
+	position:absolute;
+	top:100px;
+	right:150px;
+	background-image:url("tech2.png");
+	background-size:cover;
+}
+.soft{
+	height:400px;
+	width:700px;
+	/**border:2px solid white;**/
+	position:absolute;
+	top:500px;
+	right:150px;
+	background-image:url("softskills.png");
+	background-size:cover;
+}
+/**Certificate page**/
+.certificate{
+	color: white;
+	font-family: 𝑺𝒆𝒓𝒊𝒇 𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄;
+	font-size: 25px;
+	margin-left:40px ;
+	margin-top:60px;
+	width:60%;
+	
+}
+.cert-logo{
+	/**border:2px solid white;**/
+	height:380px;
+	width:400px;
+	/**background-image:url("photo.png");**/
+	background-size:cover;
+	position:fixed;
+	top:130px;
+	right:10px;
+	text-decoration:none;
+}
+.text-box{
+	/**border:2px solid white;**/
+	color:white;
+	height:25px;
+	width:150px;
+	position:fixed;
+	top:530px;
+	right:120px;
+    font-size:20px;
+}
+.thanks{
+	color: white;
+	font-family: 𝑺𝒆𝒓𝒊𝒇 𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄;
+	font-size: 25px;
+	margin-left:40px ;
+	margin-top:60px;
+	width:70%;
+	}
+
+	
+.address{
+	color:white;
+	font-size:20px;
+	margin-left:40px ;
+	margin-top:20px;
+}
+.text-1{
+	margin-left:40px ;
+	margin-top:20px;
+}
+.profile{
+	display:flex;
+	justify-content:center;
+	color:white;
+	}
